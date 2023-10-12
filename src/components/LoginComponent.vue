@@ -1,7 +1,7 @@
 <template>
   <div>
     <div v-if="!auth.loggedIn">
-      Login:
+      Login for subdomain.bpium.ru:
       <div v-if="!auth.loading">
         <q-input v-model="user" label="Username" outlined />
         <q-input v-model="pass" label="Password" outlined />
